@@ -70,7 +70,7 @@ const Header = () => {
             <Link to="/" className="nav-link">Home</Link>
           </li>
           <li className="nav-item dropdown">
-            <Link className="nav-link">Categorias</Link>
+            <a className="nav-link">Categorias</a>
             <div className="dropdown-content">
               <Link to="/category/numbers">Números</Link>
               <Link to="/category/animals">Animais</Link>
